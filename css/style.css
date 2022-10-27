@@ -1,0 +1,130 @@
+/* px - Пиксели
+% - Процент
+vw - Процент от ширины страницы
+vh - Процент от высоты страницы
+em - Процент, относительно родительского класса
+rem - Процент, относительно элемента body
+fit-content - Минимальный вмещаемый размер
+max-content - Максимальный вмещаемый размер */
+
+body {
+  background-color: black;
+  font-family: "Versa", arial;
+  color: white;
+  z-index: -2;
+}
+:root {
+  --index: calc(1vw + 1vh);
+}
+img {
+  max-width: 100%;
+}
+/* __________block_1 header/nav_menu__________ */
+
+header {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background: no-repeat;
+  background-image: url(/images/Planet\ 1+Ground.svg);
+  background-position-x: center;
+  background-size: 120vh;
+}
+/* __________backgroud for header_______________ */
+
+/* _______________________________________________ */
+.navi {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li a {
+  padding-left: 35px;
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+.Home {
+  padding-left: 0;
+}
+.WHITEPAPER {
+  color: black;
+  background-color: #f15641;
+  padding: 9.5px 24.5px 9.5px;
+  margin-left: 35px;
+  border-radius: 5px;
+  font-size: 16px;
+
+  line-height: 24px;
+  letter-spacing: 0.145em;
+}
+.MARKETPLACE {
+  color: #0064c0;
+}
+/* ______block_1 center content_____ */
+.center_content {
+  text-align: center;
+  margin-bottom: -150px;
+  z-index: 1;
+}
+.center_content h1 {
+  font-size: 80px;
+  line-height: 96px;
+  font-style: normal;
+  font-weight: 400;
+  background: -moz-linear-gradient(8deg, #f5f5f5, #d1d0d0);
+  margin-bottom: 38px;
+}
+.center_content h2 {
+  margin-bottom: 10px;
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 53px;
+  color: #a8d5ff;
+}
+.center_content a {
+  color: white;
+  padding: 12px 33.6px;
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 139.5%;
+  letter-spacing: 0.205em;
+}
+.center_content a:not(:last-child) {
+  border: 1px solid white;
+  margin-right: 10px;
+}
+.center_content a:last-child {
+  background-color: #0064c0;
+  border: 1px solid #0064c0;
+  margin-left: 10px;
+  padding: 12px 23.6px;
+}
+.cat_dog {
+  text-align: center;
+}
+.blockchain_symbols {
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+.solana {
+  position: absolute;
+  right: 3%;
+  bottom: 3%;
+}
+/* ___________block_2______________ */
