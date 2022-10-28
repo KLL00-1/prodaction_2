@@ -35,6 +35,10 @@ img {
 /* __________block_1 header/nav_menu__________ */
 
 header {
+  background: no-repeat;
+  background-image: url(images/Planet\ 1+Ground.svg);
+  background-position-x: center;
+  background-size: 140vh;
   max-width: 1600px;
   margin: 0 auto;
   height: 100vh;
