@@ -1,4 +1,4 @@
-@media (max-height: 800px) {
+@media (max-height: 950px) {
   .center_content h1 {
     font-size: calc(var(--index) * 3);
     margin-bottom: 10px;
@@ -16,6 +16,9 @@
   }
   .center_content a:last-child {
     padding: 6px 20px;
+  }
+  .cat_dog img {
+    max-width: 80%;
   }
 }
 @media (max-width: 950px) {
