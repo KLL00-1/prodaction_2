@@ -19,6 +19,9 @@
   }
 }
 @media (max-width: 950px) {
+  .navi {
+    justify-content: space-between;
+  }
   header nav ul li a {
     font-size: calc(var(--index) * 1.3);
   }
