@@ -55,7 +55,7 @@ header {
   width: 100%;
   padding-top: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 header nav ul {
@@ -88,7 +88,7 @@ header nav ul li a {
 /* ______block_1 center content_____ */
 .center_content {
   text-align: center;
-  margin-bottom: -150px;
+  margin-bottom: -250px;
   z-index: 1;
 }
 .center_content h1 {
