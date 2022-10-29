@@ -127,6 +127,9 @@
   .about_nft {
     margin-top: 80px;
   }
+  .scroll_bar {
+    margin: 20px auto;
+  }
   .block_3 h2,
   .block_4 h2,
   .road_map_team h2 {
