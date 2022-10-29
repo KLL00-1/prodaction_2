@@ -237,30 +237,16 @@ header nav ul li a {
   overflow-x: hidden;
   max-height: 400px;
   display: flex;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #f15641;
 }
 .scroll_bar img {
-  max-width: 100%;
-
+  max-width: 50%;
   animation: scroll 20s linear infinite;
 }
 @keyframes scroll {
-  16.5% {
-    transform: translateX(-400px);
-  }
-  33% {
-    transform: translateX(-800px);
-  }
-  49.5% {
-    transform: translateX(-1200px);
-  }
-  66% {
-    transform: translateX(-1600px);
-  }
-  82.5% {
-    transform: translateX(-2000px);
-  }
   100% {
-    transform: translateX(-2400px);
+    transform: translateX(-1000px);
   }
 }
 
