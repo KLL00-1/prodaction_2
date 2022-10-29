@@ -171,7 +171,6 @@ header nav ul li a {
 /* ____________________________________ */
 
 .about_game {
-  margin-left: 100px;
   margin-top: 250px;
   display: flex;
   justify-content: space-evenly;
@@ -236,10 +235,10 @@ header nav ul li a {
   overflow-x: hidden;
   max-height: 400px;
   display: flex;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #f15641;
+  border-radius: 40%;
 }
 .scroll_bar img {
+  opacity: 90%;
   max-width: 50%;
   animation: scroll 20s linear infinite;
 }
