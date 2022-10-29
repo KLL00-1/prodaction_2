@@ -152,7 +152,6 @@ header nav ul li a {
 /* ____________block_2_fon__________ */
 .planet_dog_tower {
   position: absolute;
-  top: 0;
   right: 0;
 }
 .Fone_lighting_dog_tower {
@@ -233,7 +232,7 @@ header nav ul li a {
 }
 .scroll_bar {
   z-index: 1;
-  max-width: 400px;
+  max-width: 800px;
   overflow-x: hidden;
   max-height: 400px;
   display: flex;
@@ -246,7 +245,7 @@ header nav ul li a {
 }
 @keyframes scroll {
   100% {
-    transform: translateX(-1000px);
+    transform: translateX(-500%);
   }
 }
 
