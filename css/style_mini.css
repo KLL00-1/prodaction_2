@@ -7,16 +7,12 @@
     font-size: calc(var(--index) * 1.5);
     margin-bottom: 10px;
   }
-  .center_content a {
-    font-size: calc(var(--index) * 0.5);
-    padding: 6px 20px;
-  }
+
   .buttons {
+    margin-top: 30px;
     margin-bottom: 100px;
   }
-  .center_content a:last-child {
-    padding: 6px 20px;
-  }
+
   .cat_dog img {
     max-width: 80%;
   }
@@ -44,6 +40,7 @@
     padding: 6px 20px;
   }
   .buttons {
+    margin-top: 0;
     margin-bottom: 100px;
   }
   .center_content a:last-child {
