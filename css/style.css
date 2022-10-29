@@ -234,12 +234,34 @@ header nav ul li a {
 .scroll_bar {
   z-index: 1;
   max-width: 400px;
-  overflow-x: auto;
+  overflow-x: hidden;
   max-height: 400px;
   display: flex;
 }
 .scroll_bar img {
   max-width: 100%;
+
+  animation: scroll 20s linear infinite;
+}
+@keyframes scroll {
+  16.5% {
+    transform: translateX(-400px);
+  }
+  33% {
+    transform: translateX(-800px);
+  }
+  49.5% {
+    transform: translateX(-1200px);
+  }
+  66% {
+    transform: translateX(-1600px);
+  }
+  82.5% {
+    transform: translateX(-2000px);
+  }
+  100% {
+    transform: translateX(-2400px);
+  }
 }
 
 /* _________block_3_____________ */
