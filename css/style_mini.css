@@ -145,9 +145,9 @@
     max-width: 650px;
   }
   .scroll_bar {
-    margin: 50px auto;
+    margin: 80px auto;
   }
-  .block_3 h2,
+  .mobile h2,
   .block_4 h2,
   .road_map_team h2 {
     font-size: calc(var(--index) * 3.3);
@@ -156,6 +156,9 @@
 @media (max-width: 700px) {
   .dog {
     max-width: 55%;
+  }
+  .mobile {
+    margin-top: 30px;
   }
   .block_3 {
     margin-top: 100px;
@@ -187,7 +190,6 @@
     flex-direction: column;
   }
   .spans {
-    /* display: none; */
     order: 1;
     margin-bottom: 30px;
   }
