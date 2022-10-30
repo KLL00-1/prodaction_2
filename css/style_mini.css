@@ -109,6 +109,12 @@
   .dog_tower {
     top: 65vh;
   }
+  .planet3 {
+    bottom: 90vh;
+  }
+  .fon_planet3 {
+    bottom: 40vh;
+  }
   .solana {
     margin-right: 0;
   }
@@ -161,6 +167,9 @@
   }
 }
 @media (max-width: 700px) {
+  .planet3 {
+    bottom: 50vh;
+  }
   .logo img {
     max-width: 70%;
   }
