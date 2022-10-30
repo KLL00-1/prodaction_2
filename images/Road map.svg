@@ -1,0 +1,29 @@
+<svg width="1177" height="571" viewBox="0 0 1177 571" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="265.789" cy="285.874" rx="16.8146" ry="13.9765" fill="#0064C0"/>
+<path d="M18.0541 18.4562H946.617C1051.59 18.4562 1131.74 73.4306 1131.74 153.563C1131.74 233.695 1072.89 287.768 974.092 287.768H210.383C132.954 287.768 18.0541 311.963 18.0541 418.185C18.0541 524.407 104.369 553.953 210.383 553.953C316.397 553.953 876.339 553.953 1161.38 553.953" stroke="#F15641" stroke-width="8"/>
+<g opacity="0.5" filter="url(#filter0_f_443_19828)">
+<path d="M18.0541 17.8804H946.617C1051.59 17.8804 1131.74 72.8548 1131.74 152.987C1131.74 233.119 1072.89 287.192 974.092 287.192H210.383C132.954 287.192 18.0541 311.388 18.0541 417.609C18.0541 523.831 104.369 553.377 210.383 553.377C316.397 553.377 876.339 553.377 1161.38 553.377" stroke="#0064C0" stroke-width="5"/>
+</g>
+<path d="M205.875 17.5244C205.875 24.8847 198.661 31.0009 189.56 31.0009C180.459 31.0009 173.246 24.8847 173.246 17.5244C173.246 10.1641 180.459 4.04785 189.56 4.04785C198.661 4.04785 205.875 10.1641 205.875 17.5244Z" fill="white" stroke="#0064C0"/>
+<ellipse cx="371.159" cy="17.5244" rx="16.8146" ry="13.9765" fill="white"/>
+<ellipse cx="552.756" cy="17.5244" rx="16.8146" ry="13.9765" fill="white"/>
+<ellipse cx="734.355" cy="17.5244" rx="16.8146" ry="13.9765" fill="white"/>
+<ellipse cx="915.953" cy="17.5244" rx="16.8146" ry="13.9765" fill="white"/>
+<path d="M289.649 285.874C289.649 295.77 279.66 305.016 265.68 305.016C251.699 305.016 241.711 295.77 241.711 285.874C241.711 275.978 251.699 266.733 265.68 266.733C279.66 266.733 289.649 275.978 289.649 285.874Z" fill="white" stroke="#0064C0" stroke-width="8"/>
+<ellipse cx="447.386" cy="285.874" rx="16.8146" ry="13.9765" fill="white"/>
+<ellipse cx="628.985" cy="285.874" rx="16.8146" ry="13.9765" fill="white"/>
+<ellipse cx="810.581" cy="285.874" rx="16.8146" ry="13.9765" fill="white"/>
+<ellipse cx="992.183" cy="285.874" rx="16.8146" ry="13.9765" fill="white"/>
+<ellipse cx="172.746" cy="554.223" rx="16.8146" ry="13.9765" fill="white"/>
+<ellipse cx="354.345" cy="554.223" rx="16.8146" ry="13.9765" fill="white"/>
+<ellipse cx="535.941" cy="554.223" rx="16.8146" ry="13.9765" fill="white"/>
+<ellipse cx="717.54" cy="554.223" rx="16.8146" ry="13.9765" fill="white"/>
+<ellipse cx="899.137" cy="554.223" rx="16.8146" ry="13.9765" fill="white"/>
+<defs>
+<filter id="filter0_f_443_19828" x="0.554077" y="0.380371" width="1175.82" height="570.496" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="7.5" result="effect1_foregroundBlur_443_19828"/>
+</filter>
+</defs>
+</svg>
