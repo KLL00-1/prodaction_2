@@ -136,9 +136,9 @@ header nav ul li a {
 }
 
 .solana {
-  position: absolute;
-  right: 3%;
-  bottom: 3%;
+  float: right;
+  margin-top: -50px;
+  margin-right: 150px;
 }
 /* ___________block_2______________ */
 .block_2 {
@@ -345,6 +345,13 @@ footer {
 .spans span:nth-child(2) {
   margin-left: 47px;
 }
+.spans a {
+  color: white;
+}
+.spans a:hover {
+  box-shadow: none;
+  text-shadow: 0 0 10px white;
+}
 .final_logo {
   text-align: center;
 }
@@ -353,7 +360,7 @@ footer {
   display: block;
   margin: 0 auto;
 }
-.final_logo span {
+.final_logo {
   margin: 42px auto;
 }
 .img_links a:not(:first-child) {
@@ -361,4 +368,10 @@ footer {
 }
 .img_links a:hover {
   box-shadow: none;
+}
+.id {
+  color: #a4a2a2;
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 11px;
 }
