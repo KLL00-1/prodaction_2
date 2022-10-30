@@ -103,6 +103,12 @@
   }
 }
 @media (max-width: 1100px) {
+  .planet_dog_tower {
+    top: 70vh;
+  }
+  .dog_tower {
+    top: 65vh;
+  }
   .solana {
     margin-right: 0;
   }
@@ -175,7 +181,10 @@
   .block_3 {
     margin-top: 100px;
   }
-  .block_4 {
+  .block_4 h2 {
+    margin-top: 100px;
+  }
+  .platform_info {
     margin-top: 100px;
   }
   .tokenomic {
