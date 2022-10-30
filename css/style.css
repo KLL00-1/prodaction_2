@@ -178,7 +178,9 @@ header nav ul li a {
   bottom: 0;
 }
 /* ____________________________________ */
-
+.dog {
+  z-index: 1;
+}
 .about_game {
   margin-top: 250px;
   display: flex;
