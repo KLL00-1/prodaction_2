@@ -13,10 +13,7 @@ function menuOpen() {
     if (menu.classList != "menu_btn" && number < 0) {
       number += 2;
       navMini.style.right = number + "%";
-    }
-  }, 1);
-  setInterval(() => {
-    if (
+    } else if (
       menu.classList == "menu_btn" &&
       menu.classLists != "menu_open" &&
       number > -100
