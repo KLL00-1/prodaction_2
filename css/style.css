@@ -47,10 +47,20 @@ header {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 /* __________backgroud for header_______________ */
 
 /* _______________________________________________ */
+.nav_mini {
+  position: absolute;
+  background-color: #a4a2a2;
+  height: 50vh;
+  transition: 1s;
+  width: 50%;
+  left: -50%;
+}
+
 .navi {
   width: 100%;
   padding-top: 10px;
