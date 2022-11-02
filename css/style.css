@@ -51,16 +51,31 @@ header {
 }
 /* __________backgroud for header_______________ */
 
-/* _______________________________________________ */
+/* ______________nav_mobile_________________________________ */
 .nav_mini {
   position: absolute;
-  background-color: #a4a2a2;
-  height: 50vh;
-  transition: 1s;
-  width: 50%;
-  left: -50%;
+  background-color: #03092c;
+  height: 100vh;
+  transition: 0.7s;
+  width: 100%;
+  right: -100%;
+  z-index: 3;
+  opacity: 95%;
+}
+.nav_mini ul {
+  text-align: center;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav_mini ul li a {
+  font-size: calc(var(--index) * 2);
+  border-bottom: 1px solid white;
 }
 
+/* __________________________________________________________ */
 .navi {
   width: 100%;
   padding-top: 10px;
@@ -77,6 +92,9 @@ header nav ul li a {
   font-family: "Anton", sans-serif;
   font-size: 20px;
   line-height: 30px;
+}
+.nav_mini ul li a {
+  padding: 0;
 }
 .Home {
   padding-left: 0;
