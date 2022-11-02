@@ -77,6 +77,7 @@
     background-color: white;
     height: 2px;
     transition: 0.8s;
+    z-index: 4;
   }
   .btn-line:nth-child(1) {
     top: 0px;
