@@ -74,7 +74,9 @@ header {
   font-size: calc(var(--index) * 2);
   border-bottom: 1px solid white;
 }
-
+.logo {
+  z-index: 4;
+}
 /* __________________________________________________________ */
 .navi {
   width: 100%;
