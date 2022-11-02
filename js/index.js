@@ -13,6 +13,7 @@ function menuOpen() {
     if (menu.classList != "menu_btn" && number < 0) {
       number += 2;
       navMini.style.right = number + "%";
+      navMini.style.top = number + "%";
     } else if (
       menu.classList == "menu_btn" &&
       menu.classLists != "menu_open" &&
@@ -20,6 +21,7 @@ function menuOpen() {
     ) {
       number -= 2;
       navMini.style.right = number + "%";
+      navMini.style.top = number + "%";
     }
   }, 1);
 }
