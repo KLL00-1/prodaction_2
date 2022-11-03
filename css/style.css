@@ -73,28 +73,45 @@ header {
   align-items: center;
 }
 .one {
+  position: absolute;
+  top: 10vh;
   transition: 1s;
   margin-top: -70vh;
+  margin-right: 50vw;
 }
 .two {
+  position: absolute;
+  top: 30vh;
   transition: 1s;
   margin-top: -70vh;
+  margin-left: 50vw;
 }
 .three {
+  position: absolute;
+  top: 50vh;
   transition: 1s;
   margin-top: -70vh;
+  margin-right: 50vw;
 }
 .four {
+  top: 70vh;
+  position: absolute;
   transition: 1s;
   margin-top: -70vh;
+  margin-left: 50vw;
 }
 .five {
+  top: 90vh;
+  position: absolute;
   transition: 1s;
   margin-top: -70vh;
+  margin-right: 50vw;
 }
 
 .anime {
-  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1vh;
 }
 
 .nav_mini ul li a {
