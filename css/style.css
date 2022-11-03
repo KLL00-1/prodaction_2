@@ -75,7 +75,7 @@ header {
 .one {
   position: absolute;
   top: 10vh;
-  transition: 1s;
+  transition: 1.5s;
   margin-top: -70vh;
   margin-right: 50vw;
 }
@@ -89,7 +89,7 @@ header {
 .three {
   position: absolute;
   top: 40vh;
-  transition: 1s;
+  transition: 2s;
   margin-top: -70vh;
   margin-right: 50vw;
 }
@@ -103,7 +103,7 @@ header {
 .five {
   top: 70vh;
   position: absolute;
-  transition: 1s;
+  transition: 1.5s;
   margin-top: -70vh;
   margin-right: 50vw;
 }
