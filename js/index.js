@@ -2,8 +2,10 @@ const btnMenu = document.getElementById("btn_menu");
 const menu = document.querySelector(".menu_btn");
 const navMini = document.querySelector(".nav_mini");
 const ulMenuMini = document.querySelector(".ulMenuMini");
-
-// let number = -100;
+const scrollBar1 = document.getElementById("1");
+const scrollBar2 = document.getElementById("2");
+let pos1 = 0;
+let pos2 = -1400;
 
 btnMenu.addEventListener("click", () => {
   menu.classList.toggle("menu-open");
@@ -11,16 +13,17 @@ btnMenu.addEventListener("click", () => {
   ulMenuMini.classList.toggle("transform_li");
 });
 
-// function menuOpen() {
-//   setInterval(() => {
-//     if (menu.classList != "menu_btn" && number < 0) {
-//       number += 1;
-//       navMini.style.top = number + "%";
-//       navMini.style.right = number + "%";
-//     } else if (menu.classList == "menu_btn" && number > -100) {
-//       number -= 1;
-//       navMini.style.top = number + "%";
-//       navMini.style.right = number + "%";
-//     }
-//   }, 1);
-// }
+setInterval(() => {
+  if (pos1 < 1400 && pos2 < 1400) {
+    pos1 += 0.1;
+    pos2 += 0.1;
+    scrollBar2.style.left = pos2 + "px";
+    scrollBar1.style.left = pos1 + "px";
+  } else if (pos2 > 0) {
+    pos1 = -1400;
+    pos2 = 0;
+  } else if (pos1 >= 0 && pos2 >= 1400) {
+    pos2 = -1400;
+    pos1 = 0;
+  }
+}, 1);
