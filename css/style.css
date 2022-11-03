@@ -55,11 +55,11 @@ header {
 .nav_mini {
   position: absolute;
   background-color: #03092c;
-  height: 0;
-  transition: 0.6s;
-  width: 0;
-  right: 0;
-  top: 0;
+  transition: 0.3s;
+  height: 100vh;
+  width: 100vw;
+  right: -100%;
+  top: -100%;
   z-index: 3;
   opacity: 95%;
   overflow: hidden;
@@ -73,7 +73,7 @@ header {
   align-items: center;
 }
 .nav_mini ul li {
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .anime {
   animation: text 0.6s linear;
