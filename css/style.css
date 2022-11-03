@@ -55,15 +55,15 @@ header {
 .nav_mini {
   position: absolute;
   background-color: #03092c;
-  transition: 0.3s;
+  transition: 0.7s;
   height: 100vh;
   width: 100vw;
-  right: -100%;
-  top: -100%;
   z-index: 3;
   opacity: 95%;
   overflow: hidden;
+  transform: translate(100%, -100%);
 }
+
 .nav_mini ul {
   text-align: center;
   display: flex;
@@ -72,20 +72,31 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
-.nav_mini ul li {
-  transition: 0.3s;
+.one {
+  transition: 1s;
+  margin-top: -70vh;
 }
+.two {
+  transition: 1s;
+  margin-top: -70vh;
+}
+.three {
+  transition: 1s;
+  margin-top: -70vh;
+}
+.four {
+  transition: 1s;
+  margin-top: -70vh;
+}
+.five {
+  transition: 1s;
+  margin-top: -70vh;
+}
+
 .anime {
-  animation: text 0.6s linear;
+  margin-top: 0;
 }
-@keyframes text {
-  0% {
-    margin-top: -70vh;
-  }
-  100% {
-    margin-top: 0;
-  }
-}
+
 .nav_mini ul li a {
   border-bottom: 1px solid white;
   font-size: calc(var(--index) * 2);
