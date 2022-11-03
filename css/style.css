@@ -294,25 +294,8 @@ header nav ul li a {
   overflow: hidden;
   display: flex;
   border-radius: 300px;
-  animation: scroll 6s linear infinite;
 }
-@keyframes scroll {
-  0% {
-    box-shadow: 10px 0 20px #f156414b;
-  }
-  25% {
-    box-shadow: 0 10px 20px #f156414b;
-  }
-  50% {
-    box-shadow: -10px 0 20px #f156414b;
-  }
-  75% {
-    box-shadow: 0 -10px 20px #f156414b;
-  }
-  100% {
-    box-shadow: 10px 0 20px #f156414b;
-  }
-}
+
 .scroll_1_bar {
   position: absolute;
   display: flex;
