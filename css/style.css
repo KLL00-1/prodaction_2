@@ -293,7 +293,6 @@ header nav ul li a {
   height: 200px;
   overflow: hidden;
   display: flex;
-  border-radius: 300px;
 }
 
 .scroll_1_bar {
