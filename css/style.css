@@ -73,11 +73,14 @@ header {
   justify-content: space-evenly;
   transform: skew(40deg, 40deg);
   margin-top: -1000px;
+  text-shadow: 0 -15px 10px white;
   transition: 1s;
 }
+/* ____transform_class_________________ */
 .transform_li {
   transform: skew(0, 0);
   margin-top: 0;
+  text-shadow: none;
 }
 .nav_mini ul li a {
   border-bottom: 1px solid white;
