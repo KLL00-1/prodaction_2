@@ -64,56 +64,19 @@ header {
   transform: translate(100%, -100%);
 }
 
-.nav_mini ul {
+.ulMenuMini {
   text-align: center;
   display: flex;
   height: 100%;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
-}
-.one {
-  position: absolute;
-  top: 10vh;
-  transition: 1.5s;
-  margin-top: -70vh;
-  margin-right: 50vw;
-}
-.two {
-  position: absolute;
-  top: 25vh;
+  justify-content: space-around;
+  transform: skew(20deg, 20deg);
   transition: 1s;
-  margin-top: -70vh;
-  margin-left: 50vw;
 }
-.three {
-  position: absolute;
-  top: 40vh;
-  transition: 2s;
-  margin-top: -70vh;
-  margin-right: 50vw;
+.transform_li {
+  transform: skew(0, 0);
 }
-.four {
-  top: 55vh;
-  position: absolute;
-  transition: 1s;
-  margin-top: -70vh;
-  margin-left: 50vw;
-}
-.five {
-  top: 70vh;
-  position: absolute;
-  transition: 1.5s;
-  margin-top: -70vh;
-  margin-right: 50vw;
-}
-
-.anime {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 1vh;
-}
-
 .nav_mini ul li a {
   border-bottom: 1px solid white;
   font-size: calc(var(--index) * 2);
