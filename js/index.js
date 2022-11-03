@@ -6,34 +6,24 @@ const anime2 = document.querySelector(".two");
 const anime3 = document.querySelector(".three");
 const anime4 = document.querySelector(".four");
 const anime5 = document.querySelector(".five");
-let number = 0;
+let number = -100;
 
 btnMenu.addEventListener("click", () => {
   menu.classList.toggle("menu-open");
-  addAnimeMenu();
   menuOpen();
+  addAnimeMenu();
 });
 
 function menuOpen() {
   setInterval(() => {
-    if (menu.classList != "menu_btn" && number < 100) {
+    if (menu.classList != "menu_btn" && number < 0) {
       number += 1;
-      navMini.style.height = number + "vh";
-      navMini.style.width = number + "vw";
-      anime.style.opacity = number + "%";
-      anime2.style.opacity = number + "%";
-      anime3.style.opacity = number + "%";
-      anime4.style.opacity = number + "%";
-      anime5.style.opacity = number + "%";
-    } else if (menu.classList == "menu_btn" && number > 0) {
+      navMini.style.top = number + "%";
+      navMini.style.right = number + "%";
+    } else if (menu.classList == "menu_btn" && number > -100) {
       number -= 1;
-      navMini.style.width = number + "vw";
-      navMini.style.height = number + "vh";
-      anime.style.opacity = number + "%";
-      anime2.style.opacity = number + "%";
-      anime3.style.opacity = number + "%";
-      anime4.style.opacity = number + "%";
-      anime5.style.opacity = number + "%";
+      navMini.style.top = number + "%";
+      navMini.style.right = number + "%";
     }
   }, 1);
 }
