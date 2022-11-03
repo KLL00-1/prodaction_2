@@ -72,7 +72,9 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
-
+.nav_mini ul li {
+  transition: 0.5s;
+}
 .anime {
   animation: text 0.8s linear;
 }
