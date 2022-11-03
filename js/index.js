@@ -18,8 +18,8 @@ function menuOpen() {
   setInterval(() => {
     if (menu.classList != "menu_btn" && number < 100) {
       number += 1;
-      navMini.style.height = number + "%";
-      navMini.style.width = number + "%";
+      navMini.style.height = number + "vh";
+      navMini.style.width = number + "vw";
       anime.style.opacity = number + "%";
       anime2.style.opacity = number + "%";
       anime3.style.opacity = number + "%";
@@ -27,8 +27,8 @@ function menuOpen() {
       anime5.style.opacity = number + "%";
     } else if (menu.classList == "menu_btn" && number > 0) {
       number -= 1;
-      navMini.style.width = number + "%";
-      navMini.style.height = number + "%";
+      navMini.style.width = number + "vw";
+      navMini.style.height = number + "vh";
       anime.style.opacity = number + "%";
       anime2.style.opacity = number + "%";
       anime3.style.opacity = number + "%";
