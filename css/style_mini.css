@@ -106,6 +106,9 @@
   .menu-open .btn-line:nth-child(4) {
     transform: scale(0);
   }
+  .transform {
+    transform: translate(0, 0);
+  }
   /* ________________________________________________ */
   .blockchain_symbols img {
     max-width: 60%;
