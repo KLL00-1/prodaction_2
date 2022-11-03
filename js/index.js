@@ -17,7 +17,7 @@ btnMenu.addEventListener("click", () => {
 function menuOpen() {
   setInterval(() => {
     if (menu.classList != "menu_btn" && number < 100) {
-      number += 2;
+      number += 1;
       navMini.style.height = number + "%";
       navMini.style.width = number + "%";
       anime.style.opacity = number + "%";
@@ -26,7 +26,7 @@ function menuOpen() {
       anime4.style.opacity = number + "%";
       anime5.style.opacity = number + "%";
     } else if (menu.classList == "menu_btn" && number > 0) {
-      number -= 2;
+      number -= 1;
       navMini.style.width = number + "%";
       navMini.style.height = number + "%";
       anime.style.opacity = number + "%";
