@@ -15,8 +15,8 @@ btnMenu.addEventListener("click", () => {
 
 setInterval(() => {
   if (pos1 < 1400 && pos2 < 1400) {
-    pos1 += 0.1;
-    pos2 += 0.1;
+    pos1 += 0.3;
+    pos2 += 0.3;
     scrollBar2.style.left = pos2 + "px";
     scrollBar1.style.left = pos1 + "px";
   } else if (pos2 > 0) {
