@@ -71,11 +71,13 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  transform: skew(20deg, 20deg);
+  transform: skew(40deg, 40deg);
+  margin-top: -1000px;
   transition: 1s;
 }
 .transform_li {
   transform: skew(0, 0);
+  margin-top: 0;
 }
 .nav_mini ul li a {
   border-bottom: 1px solid white;
