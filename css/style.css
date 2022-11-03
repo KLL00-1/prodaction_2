@@ -258,7 +258,7 @@ header nav ul li a {
   line-height: 36px;
   text-transform: capitalize;
   margin-bottom: 80px;
-  margin-top: 30pxs;
+  margin-top: 30px;
 }
 .about_game a {
   font-family: "Anton";
@@ -294,23 +294,23 @@ header nav ul li a {
   overflow: hidden;
   display: flex;
   border-radius: 300px;
-  animation: scroll 3s linear infinite;
+  animation: scroll 6s linear infinite;
 }
 @keyframes scroll {
   0% {
-    box-shadow: 10px 0 5px #f15641;
+    box-shadow: 10px 0 20px #f156414b;
   }
   25% {
-    box-shadow: 0 10px 5px #f15641;
+    box-shadow: 0 10px 20px #f156414b;
   }
   50% {
-    box-shadow: -10px 0 5px #f15641;
+    box-shadow: -10px 0 20px #f156414b;
   }
   75% {
-    box-shadow: 0 -10px 5px #f15641;
+    box-shadow: 0 -10px 20px #f156414b;
   }
   100% {
-    box-shadow: 10px 0 5px #f15641;
+    box-shadow: 10px 0 20px #f156414b;
   }
 }
 .scroll_1_bar {
