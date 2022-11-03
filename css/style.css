@@ -81,27 +81,27 @@ header {
 }
 .two {
   position: absolute;
-  top: 30vh;
+  top: 25vh;
   transition: 1s;
   margin-top: -70vh;
   margin-left: 50vw;
 }
 .three {
   position: absolute;
-  top: 50vh;
+  top: 40vh;
   transition: 1s;
   margin-top: -70vh;
   margin-right: 50vw;
 }
 .four {
-  top: 70vh;
+  top: 55vh;
   position: absolute;
   transition: 1s;
   margin-top: -70vh;
   margin-left: 50vw;
 }
 .five {
-  top: 90vh;
+  top: 70vh;
   position: absolute;
   transition: 1s;
   margin-top: -70vh;
