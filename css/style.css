@@ -285,7 +285,7 @@ header nav ul li a {
   position: relative;
   display: flex;
   z-index: 1;
-  width: 50vw;
+  width: 40vw;
   height: 200px;
   overflow: hidden;
   display: flex;
