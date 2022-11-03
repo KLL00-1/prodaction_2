@@ -310,8 +310,12 @@ header nav ul li a {
 .scroll_1_bar img,
 .scroll_2_bar img {
   height: 200px;
+  transition: 0.7s;
 }
-
+.scroll_1_bar img:hover,
+.scroll_2_bar img:hover {
+  transform: scale(1.5, 1.5);
+}
 .mobile {
   text-align: center;
   margin-top: 200px;
@@ -461,4 +465,7 @@ footer {
   margin-right: 4vw;
   display: flex;
   align-items: center;
+}
+.img_links a:hover {
+  transform: scale(1.5, 1.5);
 }
