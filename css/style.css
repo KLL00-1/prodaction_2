@@ -86,14 +86,18 @@ header {
 }
 .logo {
   z-index: 4;
+  margin-left: 4vw;
 }
 /* __________________________________________________________ */
 .navi {
   width: 100%;
   padding-top: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+}
+.navi nav {
+  margin-right: 4vw;
 }
 header nav ul {
   display: flex;
@@ -431,7 +435,7 @@ footer {
 }
 .final_content {
   display: flex;
-  max-width: 1570px;
+  max-width: 1820px;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
