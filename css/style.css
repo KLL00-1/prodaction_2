@@ -282,23 +282,33 @@ header nav ul li a {
   border: 1px solid #0064c0;
 }
 .scroll_bar {
-  z-index: 1;
-  max-width: 800px;
-  overflow-x: hidden;
-  max-height: 400px;
+  position: relative;
   display: flex;
-  border-radius: 40%;
+  z-index: 1;
+  width: 50vw;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  border-radius: 300px;
+  box-shadow: 0 0 20px #f15641;
 }
-.scroll_bar img {
-  opacity: 90%;
-  max-width: 50%;
-  animation: scroll 20s linear infinite;
+.scroll_1_bar {
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  width: 1400px;
 }
-@keyframes scroll {
-  100% {
-    transform: translateX(-500%);
-  }
+.scroll_2_bar {
+  position: absolute;
+  width: 1400px;
+  display: flex;
+  z-index: 1;
 }
+.scroll_1_bar img,
+.scroll_2_bar img {
+  height: 200px;
+}
+
 .mobile {
   text-align: center;
   margin-top: 200px;
@@ -441,4 +451,11 @@ footer {
   text-align: center;
   padding-bottom: 40px;
   font-size: 11px;
+}
+.img_links,
+.spans {
+  margin-left: 4vw;
+  margin-right: 4vw;
+  display: flex;
+  align-items: center;
 }
