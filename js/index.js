@@ -27,3 +27,15 @@ setInterval(() => {
     pos1 = 0;
   }
 }, 1);
+
+const elA = document.querySelector(".a");
+
+window.addEventListener("scroll", trackScroll);
+function trackScroll() {
+  let scroll = window.pageYOffset;
+  // let coord = document.documentElement.clientHeight;
+
+  if (scroll >= 100) {
+    elA.classList.add("scroll_transform");
+  } else if (scroll < 100) elA.classList.remove("scroll_transform");
+}
