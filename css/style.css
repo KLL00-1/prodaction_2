@@ -75,9 +75,7 @@ header {
   margin-top: -1000px;
   transition: 1s;
 }
-.a {
-  transform: 1.5s;
-}
+
 .scroll_transform {
   transition: 1.5s;
   transform: translate(39vw, 25vh);
