@@ -6,7 +6,9 @@ em - Процент, относительно родительского кла�
 rem - Процент, относительно элемента body
 fit-content - Минимальный вмещаемый размер
 max-content - Максимальный вмещаемый размер */
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: black;
   font-family: "Versa", arial;
@@ -75,10 +77,31 @@ header {
   margin-top: -1000px;
   transition: 1s;
 }
+/* _____кнопка наверх_________ */
+.Up {
+  font-size: 34px;
+  padding: 10px;
+  position: fixed;
+  right: 5vw;
+  top: 31vh;
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0063c038;
+  text-align: center;
+  color: #a4a2a2;
+  opacity: 0;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+.scroll_buttom {
+  opacity: 50%;
+}
 
 .scroll_transform {
-  transition: 1.5s;
-  transform: translate(39vw, 35vh);
+  transition: 1s;
+  transform: translate(39vw, 60vh);
   opacity: 0;
 }
 
