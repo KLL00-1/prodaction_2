@@ -78,7 +78,7 @@ header {
 
 .scroll_transform {
   transition: 1.5s;
-  transform: translate(39vw, 25vh);
+  transform: translate(39vw, 35vh);
   opacity: 0;
 }
 
