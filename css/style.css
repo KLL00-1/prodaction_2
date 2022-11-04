@@ -93,15 +93,20 @@ header {
   color: #a4a2a2;
   opacity: 0;
   transition: 1s;
-  transition-delay: 0.5s;
+  transition-delay: 0.1s;
 }
 .scroll_buttom {
   opacity: 50%;
   transform: translateY(50vh);
 }
-
-.scroll_transform {
+.a {
+  transform: translate(0, 0);
   transition: 1s;
+}
+.Up:hover {
+  box-shadow: none;
+}
+.scroll_transform {
   transform: translate(39vw, 60vh);
   opacity: 0;
 }
