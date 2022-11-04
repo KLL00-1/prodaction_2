@@ -97,6 +97,7 @@ header {
 }
 .scroll_buttom {
   opacity: 50%;
+  transform: translateY(50vh);
 }
 
 .scroll_transform {
