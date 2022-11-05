@@ -56,6 +56,8 @@ header {
 /* ______________nav_mobile_________________________________ */
 .nav_mini {
   position: absolute;
+  display: flex;
+  justify-content: center;
   background-color: #03092c;
   transition: 0.7s;
   height: 100vh;
@@ -65,7 +67,52 @@ header {
   overflow: hidden;
   transform: translate(100%, -100%);
 }
-
+.start_links a {
+  display: block;
+  margin-top: 5vh;
+}
+.start_links a img {
+  max-width: 80%;
+  animation: impuls 3s linear infinite;
+}
+.start_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: -28vw;
+  margin-right: 10vw;
+  transform: translateX(-25vw);
+  transition: 1s;
+  transition-delay: 1s;
+}
+.transform_links {
+  transform: translateX(0);
+}
+@keyframes impuls {
+  20% {
+    transform: scale(1, 1);
+  }
+  40% {
+    transform: scale(1, 1);
+  }
+  60% {
+    transform: scale(1, 1);
+  }
+  70% {
+    transform: scale(1.1, 1.1);
+  }
+  80% {
+    transform: scale(1, 1);
+  }
+  90% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
 .ulMenuMini {
   text-align: center;
   display: flex;
@@ -99,16 +146,9 @@ header {
   opacity: 50%;
   transform: translateY(50vh);
 }
-.a {
-  transform: translate(0, 0);
-  transition: 1s;
-}
+
 .Up:hover {
   box-shadow: none;
-}
-.scroll_transform {
-  transform: translate(39vw, 60vh);
-  opacity: 0;
 }
 
 /* ____transform_class_________________ */
