@@ -4,6 +4,7 @@ const navMini = document.querySelector(".nav_mini");
 const ulMenuMini = document.querySelector(".ulMenuMini");
 const scrollBar1 = document.getElementById("1");
 const scrollBar2 = document.getElementById("2");
+const transformLinks = document.querySelector(".start_links");
 let pos1 = 0;
 let pos2 = -1400;
 
@@ -11,6 +12,7 @@ btnMenu.addEventListener("click", () => {
   menu.classList.toggle("menu-open");
   navMini.classList.toggle("transform");
   ulMenuMini.classList.toggle("transform_li");
+  transformLinks.classList.toggle("transform_links");
 });
 
 setInterval(() => {
@@ -28,7 +30,6 @@ setInterval(() => {
   }
 }, 1);
 
-const elA = document.querySelector(".a");
 const scrollButton = document.getElementById("Up");
 
 window.addEventListener("scroll", trackScroll);
@@ -37,10 +38,8 @@ function trackScroll() {
   // let coord = document.documentElement.clientHeight;
 
   if (scroll >= 100) {
-    elA.classList.add("scroll_transform");
     scrollButton.classList.add("scroll_buttom");
   } else if (scroll < 100) {
-    elA.classList.remove("scroll_transform");
     scrollButton.classList.remove("scroll_buttom");
   }
 }
